@@ -1,12 +1,20 @@
-.landingView {
-    background-size: cover;
-    min-height: 100vh;
-    position: relative;
+.body {
+    background-color: rgb(223, 224, 225);
     color: white;
     font-family: "gautreaux", sans-serif;
     font-weight: 700;
     font-style: bold;
+}
+
+.landingView {
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
     background-image: url('../images/Saint-Martin-Black-White-Landing-Crop.jpg');
+}
+
+.additionalInfoLanding {
+    color: black;
 }
 
 .nav {
@@ -65,51 +73,117 @@
 }
 
 .arrows {
-	width: 60px;
-	height: 72px;
-	position: absolute;
-	left: 50%;
-	margin-left: -30px;
-	bottom: 20px;
+    width: 60px;
+    height: 72px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 20px;
 }
 
 .arrows path {
-	stroke: rgba(0, 0, 0, 0.432);
-	fill: transparent;
-	stroke-width: 1px;	
-	animation: arrow 2s infinite;
-	-webkit-animation: arrow 2s infinite; 
+    stroke: rgba(0, 0, 0, 0.432);
+    fill: transparent;
+    stroke-width: 1px;
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite;
 }
 
-@keyframes arrow
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
+@keyframes arrow {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
 }
 
-@-webkit-keyframes arrow
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
+@-webkit-keyframes arrow {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
 }
 
 .arrows path.a1 {
-	animation-delay:-1s;
-	-webkit-animation-delay:-1s;
+    animation-delay: -1s;
+    -webkit-animation-delay: -1s;
 }
 
 .arrows path.a2 {
-	animation-delay:-0.5s;
-	-webkit-animation-delay:-0.5s;
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s;
 }
 
-.arrows path.a3 {	
-	animation-delay:0s;
-	-webkit-animation-delay:0s;
+.arrows path.a3 {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+}
+
+.ceremonyTitle {
+    font-size: 48px;
+}
+
+.ceremoneyTextBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ceremonyPTag {
+    font-size: 36px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: black;
+}
+
+.ceremonyPTagSpaceTp {
+    padding-top: 2vh;
+    font-size: 36px;
+}
+
+.ceremonyPTagSpaceBt {
+    padding-bottom: 2vh;
+    font-size: 36px;
+}
+
+.ceremonyPTagNoSpace {
+    font-size: 36px;
+}
+
+.rsvpForm {
+    margin-top: 4vh;
+    background-color: white;
+    color: black;
+}
+
+.rsvpTitle {
+    margin-top: 2vh; 
+}
+
+.formStyles {
+    font-size: 32px;
 }
 
 @media (max-width: 768px) {
@@ -117,23 +191,29 @@
         min-height: 100vh;
         background-image: url('../images/Saint-Martin-Black-White-Landing-Mobile.jpg') !important;
     }
+
     .landingTitleH1 {
         margin-top: 17vh;
         font-size: 48px;
     }
+
     .landingTitleDateA {
         font-size: 42px;
         margin-top: 26vh;
     }
+
     .nav {
         display: none;
     }
+
     .navLink {
         display: none;
     }
+
     .navButton {
         padding-right: 2vh;
     }
+
     .rsvpButton {
         padding: 2px;
         padding-top: 3px;
@@ -141,5 +221,25 @@
         font-size: 16px;
         margin: 4px 2px;
         border-radius: 40px;
+    }
+    .ceremonyTitle {
+        font-size: 36px;
+    }
+    .ceremonyPTag {
+        font-size: 16px;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        color: black;
+    }
+    .ceremonyPTagSpaceTp {
+        padding-top: 2vh;
+        font-size: 16px;
+    }
+    .ceremonyPTagSpaceBt {
+        padding-bottom: 2vh;
+        font-size: 16px;
+    }
+    .ceremonyPTagNoSpace {
+        font-size: 16px;
     }
 }
