@@ -173,17 +173,42 @@
 }
 
 .rsvpForm {
-    margin-top: 4vh;
+    padding-top: 1vh;
     background-color: white;
     color: black;
-}
-
-.rsvpTitle {
-    margin-top: 2vh; 
+    padding-bottom: 2vh;
 }
 
 .formStyles {
     font-size: 32px;
+}
+
+.checkLabel {
+    text-align: left;
+}
+
+.defaultFormSpacing {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.formCheckText {
+    text-align: start;
+}
+
+.rsvpSubmitButton {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 4px;
+    padding-right: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    border-radius: 40px;
 }
 
 @media (max-width: 768px) {

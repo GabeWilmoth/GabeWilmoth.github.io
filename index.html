@@ -88,26 +88,31 @@
             <div class="container-fluid">
                 <div class="container">
                     <div class="col-6 rsvp mx-auto">
-                        <h1 class=" rsvpTitle text-center">RSVP</h1>
-                        <form>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Email Address">
+                        <h1 class="rsvpTitle">RSVP</h1>
+                        <form action="https://formsubmit.co/gabewilmoth@gmail.com" method="POST">
+                            <div class="defaultFormSpacing form-group">
+                                <input type="text" class="form-control" placeholder="First and Last Name" required>
                             </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Will You Be Coming?">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Plus One Name">
+                            <div class="defaultFormSpacing form-group">
+                                <input type="number" class="form-control" placeholder="Number of Guests in your Party"
+                                    required>
                             </div>
 
-                            <div class="form-group">
-                                <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                            <div class="defaultFormSpacing form-group">
+                                <input type="text" class="form-control" placeholder="Names of Guests in your Party"
+                                    required>
+                            </div>
+                            <div class="defaultFormSpacing">
+                                <div class="checkLabel form-check-label">
+                                    <label>Will you be attending?</label>
+                                </div>
+                                <select class="form-select" required>
+                                    <option value="1">Yes</option>
+                                    <option value="2">No</option>
+                                  </select>
                             </div>
                             <div class="form-group">
-                                <a class="btn btn-block"> Send <i class="far fa-paper-plane"></i></a>
+                                <button class="rsvpSubmitButton">Submit</button>
                             </div>
                         </form>
                     </div>
