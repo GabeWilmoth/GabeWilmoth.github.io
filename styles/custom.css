@@ -1,0 +1,97 @@
+.landingView {
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+    font-family: "gautreaux", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    background-image: url('../images/Saint-Martin-Black-White-Landing-Crop.jpg');
+}
+
+.nav {
+    margin-left: 4vh;
+    padding-top: 2vh;
+    justify-content: space-between;
+}
+
+.navLink {
+    margin-right: 4vh;
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+.landingTitle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.landingTitleH1 {
+    font-size: 116px;
+    margin-top: 22vh;
+}
+
+.landingTitleDate {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.landingTitleDateA {
+    text-decoration: none;
+    color: white;
+    margin-top: 34vh;
+    font-size: 48px;
+}
+
+.navButton {
+    float: right;
+    padding-right: 4vh;
+}
+
+.rsvpButton {
+    background-color: white;
+    border: none;
+    padding: 8px;
+    padding-right: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    margin: 4px 2px;
+    border-radius: 40px;
+}
+
+@media (max-width: 768px) {
+    .landingView {
+        min-height: 100vh;
+        background-image: url('../images/Saint-Martin-Black-White-Landing-Mobile.jpg') !important;
+    }
+    .landingTitleH1 {
+        margin-top: 17vh;
+        font-size: 48px;
+    }
+    .landingTitleDateA {
+        font-size: 42px;
+        margin-top: 26vh;
+    }
+    .nav {
+        display: none;
+    }
+    .navLink {
+        display: none;
+    }
+    .navButton {
+        padding-right: 2vh;
+    }
+    .rsvpButton {
+        padding: 2px;
+        padding-top: 3px;
+        padding-right: 8px;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 40px;
+    }
+}
