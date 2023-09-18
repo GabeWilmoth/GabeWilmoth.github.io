@@ -247,24 +247,32 @@
         margin: 4px 2px;
         border-radius: 40px;
         text-decoration: none;
+        background-color: white;
+        border: none;
+        color: black;
     }
+
     .ceremonyTitle {
         font-size: 36px;
     }
+
     .ceremonyPTag {
         font-size: 16px;
         padding-top: 2vh;
         padding-bottom: 2vh;
         color: black;
     }
+
     .ceremonyPTagSpaceTp {
         padding-top: 2vh;
         font-size: 16px;
     }
+
     .ceremonyPTagSpaceBt {
         padding-bottom: 2vh;
         font-size: 16px;
     }
+
     .ceremonyPTagNoSpace {
         font-size: 16px;
     }
