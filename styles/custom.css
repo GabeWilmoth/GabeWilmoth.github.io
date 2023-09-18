@@ -23,6 +23,13 @@
     justify-content: space-between;
 }
 
+.navLinkMediaRemove {
+    margin-right: 4vh;
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+}
+
 .navLink {
     margin-right: 4vh;
     color: white;
@@ -228,11 +235,18 @@
     }
 
     .nav {
+        justify-content: space-between;
+        margin-left: 1vh;
+    }
+    
+    .navLinkMediaRemove {
         display: none;
     }
 
     .navLink {
-        display: none;
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
     }
 
     .navButton {
